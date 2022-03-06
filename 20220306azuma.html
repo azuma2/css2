@@ -1,26 +1,67 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>株式会社Coachtech</title>
 </head>
+
 <body>
   <h1>株式会社TECH</h1>
-    <p>test</p><br>
-    
-      <dl>
-      <dt>会社概要</dt>
-      <dd>会社名　株式会社TECH</dd>
-      <dd>代表者　山田太郎</dd>
-      <dd>所在地　東京都渋谷神宮前</dd>
-      <dd>設立　2019/07/17</dd>
-      <dd>従業員数　100人</dd>
-      <dd>資本金　1000万円</dd>
-      <dt>お問い合わせ</dt>
-      <dd></dd>
-      
-      </dl>
+  <nav>
+    <ul>
+      <li><a href="#">ホーム</a></li>
+      <li><a href="#">企業情報</a></li>
+      <li><a href="#">会社概要</a></li>
+      <li><a href="#">よくある質問</a></li>
+      <li><a href="#">お問い合わせ</a></li>
+    </ul>
+  </nav>
+
+  <img src="img/mv.png" alt="coachtech"width="600" height="400">
+  <br>
+  最新のテクノロジーで社会課題を解決
+  <br>
+  <dl>
+    <dt>
+      <h2>会社概要</h2>
+    </dt>
+    <dd><b>会社名</b>　株式会社TECH</dd>
+    <dd><b>代表者</b>　山田太郎</dd>
+    <dd><b>所在地</b>　東京都渋谷神宮前</dd>
+    <dd><b>設立</b>　2019/07/17</dd>
+    <dd><b>従業員数</b>　100人</dd>
+    <dd><b>資本金</b>　1000万円</dd>
+    <dt>
+      <h2>お問い合わせ</h2>
+    </dt>
+    <dd></dd>
+
+  </dl>
+  <form action="detail.html" method="get">
+    <label>
+      会社名：<input type="text" name="name">
+    </label>
+  </form>
+  <form action="detail.html" method="get">
+    <label for="name">お名前：</label>
+    <input type="text" name="name" id="name">
+  </form>
+  <form action="detail.html" method="get">
+    <label>
+      メールアドレス：<input type="text" name="name">
+    </label>
+  </form>
+  <form action="detail.html" method="get">
+    お問い合わせ内容：<textarea name="textarea" cols="100" rows="10"></textarea>
+  </form>
+  <form action="detail.html" method="get">
+    <button type="submit">お申込み</button>
+  </form>
+  <small>&copy; 2022 TECH, inc.</small>
+
 </body>
+
 </html>
