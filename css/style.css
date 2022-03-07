@@ -67,10 +67,9 @@ justify-content: space-between
 
 
 .haikei {
-background-image:url("../img/firstview.jpeg");
 
-width: 60%;
-height: 60%;
+width: 20%;
+height: 200px;
  margin-left:450px;
 margin-top:0px;
 }
