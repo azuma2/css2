@@ -22,7 +22,7 @@ ul{
 }
 
 .parent {
-
+  position: relative;
   color: #00008b;
    display: flex;
 justify-content: space-between
@@ -52,7 +52,7 @@ justify-content: space-between
 
 
 #mainiti {
-
+  position: absolute;
   font-size: 72px;
   margin-top:250px;
 }
@@ -60,18 +60,19 @@ justify-content: space-between
 .sikaku {
   width: 800px;
   height: 150px;
-  top: 100px;
+  top: 320px;
   background: #00008b;
+  position: relative;
 
 }
 
 
 .haikei {
-
-width: 20%;
-height: 200px;
- margin-left:450px;
-margin-top:0px;
+ position: absolute;
+width: 55% ;
+height: 40% ;
+ margin-left:700px;
+    top: 150px; 
 }
 
 
