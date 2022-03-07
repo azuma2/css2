@@ -1,9 +1,10 @@
-.midasi {
+
+
+#midasi {
   color: #00008b;
   font-size: 36px;
   font-weight: bold;
-  margin-left:50px;
-  margin-top:20px;
+ 
 }
 
 
@@ -18,8 +19,11 @@
   padding: 10px;
   margin: 10px;
 
+}
+.child0 {
 
 }
+
 .child1 {
 
 }
