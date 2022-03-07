@@ -1,0 +1,60 @@
+.midasi {
+  color: #00008b;
+  font-size: 36px;
+  font-weight: bold;
+  margin-left:50px;
+  margin-top:20px;
+}
+
+
+.parent {
+  color: #00008b;
+  display: flex;
+  margin-left:700px;
+  position: absolute;
+
+}
+.child {
+  padding: 10px;
+  margin: 10px;
+
+
+}
+.child1 {
+
+}
+.child2 {
+
+}
+.child3 {
+
+}
+
+
+#mainiti {
+
+  font-size: 72px;
+  margin-top:250px;
+}
+
+.sikaku {
+  width: 800px;
+  height: 150px;
+  top: 100px;
+  background: #00008b;
+
+}
+
+
+.haikei {
+background-image:url("../img/firstview.jpeg");
+background-size:auto;
+ position: absolute;
+width: 60%;
+height: 400px;
+ margin-left:450px;
+margin-top:0px;
+}
+
+
+
