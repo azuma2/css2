@@ -1,23 +1,39 @@
 
 
+header{
+
+  margin-left:50px;
+  margin-top:20px;
+}
+
+
+
 #midasi {
   color: #00008b;
   font-size: 36px;
   font-weight: bold;
+
  
 }
 
+ul{
+   display: flex;
+    list-style: none;
+}
 
 .parent {
+
   color: #00008b;
-  display: flex;
-  margin-left:700px;
-  position: absolute;
+   display: flex;
+justify-content: space-between
+
+
 
 }
 .child {
   padding: 10px;
   margin: 10px;
+
 
 }
 .child0 {
@@ -52,10 +68,9 @@
 
 .haikei {
 background-image:url("../img/firstview.jpeg");
-background-size:auto;
- position: absolute;
+
 width: 60%;
-height: 400px;
+height: 60%;
  margin-left:450px;
 margin-top:0px;
 }
